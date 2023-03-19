@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --switch-bg-url: url(./assets/sun.svg);
+
+  --time-color: hsla(240, 6%, 21%, 1);
+  --controls-color: hsla(240, 6%, 21%, 1);
+  --controls-hover-color: rgb(25, 25, 29);
+  --bg--white-mode: rgb(139, 88, 186);
+
+  --music-cards-color: hsla(240, 9%, 89%, 1);
+  --bg-card-forest: #1a8f45;
+  --bg-card-rain: #02799d;
+  --bg-card-coffeeshop: #d97706;
+  --bg-card-fireside: #be123c;
+
+  --color-volume-control: hsla(240, 6%, 21%, 1);
+}
+
+body {
+  background-color: var(--bg--white-mode);
+  font-family: "Roboto", sans-serif;
+
+  display: grid;
+  min-height: 80vh;
+}
+
+header {
+  justify-self: end;
+  padding: 6rem 13rem;
+}
+
+main {
+  display: flex;
+
+  justify-self: center;
+  align-items: center;
+
+  width: 82rem;
+  gap: clamp(3rem, 7rem + 10vw, 19rem);
+}
+
+#timer-and-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#timer {
+  display: flex;
+  font-size: clamp(8rem, 14rem + 10vw, 15.5rem);
+  font-weight: 500;
+
+  color: var(--time-color);
+}
+
+#controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+#controls button svg {
+  width: clamp(4.2rem, 2rem + 12vw, 5.8rem);
+}
+
+.play svg path,
+.pause svg path,
+.stop svg path,
+.add-minutes svg path,
+.less-minutes svg path {
+  fill: var(--controls-color);
+}
+
+.play,
+.pause,
+.stop,
+.add-minutes,
+.less-minutes {
+  background-color: transparent;
+}
+
+.hide {
+  display: none;
+}
+
+.add-minutes svg:hover,
+.less-minutes svg:hover {
+  transform: scale(1.05);
+}
+.pause:hover {
+  transform: scale(1.05);
+}
+
+.play svg :hover,
+.stop svg :hover {
+  fill: var(--controls-hover-color);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+#music-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+#music-type button svg {
+  width: clamp(3.2rem, 2rem + 12vw, 4.4rem);
+}
+
+.forest-sound,
+.rain-sound,
+.coffeeshop-sound,
+.fireside-sound {
+  width: 13rem;
+  height: 15rem;
+  border-radius: 2.4rem;
+  background-color: var(--music-cards-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.6rem;
+  padding-top: 3rem;
+}
+
+.rain-sound svg path,
+.forest-sound svg path,
+.fireside-sound svg path,
+.coffeeshop-sound svg path {
+  fill: var(--controls-color);
+}
+
+.forest-sound:hover,
+.rain-sound:hover,
+.coffeeshop-sound:hover,
+.fireside-sound:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+.bg-tipe-forest {
+  background-color: var(--bg-card-forest);
+}
+
+.bg-tipe-rain {
+  background-color: var(--bg-card-rain);
+}
+
+.bg-tipe-coffeshop {
+  background-color: var(--bg-card-coffeeshop);
+}
+
+.bg-tipe-fireside {
+  background-color: var(--bg-card-fireside);
+}
+
+.hider {
+  background-color: var(--music-cards-color);
+}
+
+.hidering svg path {
+  fill: #ffffff;
+}
+
+.change-color-sound-controler input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: white;
+}
+
+.change-color-sound-controler input {
+  background-color: white;
+}
+
+.darkmode {
+  --switch-bg-url: url(assets/moon.svg);
+
+  --time-color: hsla(0, 0%, 100%, 1);
+  --controls-color: hsla(240, 7%, 78%, 1);
+  --controls-hover-color: rgb(96, 96, 100);
+  --bg--white-mode: rgb(50, 29, 69);
+
+  --music-cards-color: hsla(240, 6%, 17%, 1);
+  --bg-card-forest: #17532d;
+  --bg-card-rain: hsla(195, 74%, 15%, 1);
+  --bg-card-coffeeshop: #9a6222;
+  --bg-card-fireside: #761f35;
+
+  --color-volume-control: hsla(0, 0%, 100%, 1);
+}
+
+#switch-mode {
+  width: 0;
+}
+
+#switch-mode button {
+  width: 4.4rem;
+  height: 4.4rem;
+  background: transparent var(--switch-bg-url) no-repeat center;
+}
+#switch-mode button:hover {
+  transform: scale(1.3);
+}
+
+input {
+  appearance: none;
+  height: 0.4rem;
+  width: 9rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-volume-control);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 100%;
+  background: var(--color-volume-control);
+  cursor: pointer;
+}
+
+/* Ajustes para modo mobile */
+
+@media (max-width: 426px) {
+  .switch-sun-mode,
+  .switch-dark-mode {
+    justify-self: end;
+    padding: 8rem 8rem 0 0;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20rem;
+  }
+}
