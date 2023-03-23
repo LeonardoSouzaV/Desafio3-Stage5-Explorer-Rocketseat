@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Focus Timer 2.0 foi desenvolvido para estudar e aplicar tudo aprendido no curso até então. Com um foco maior no conteudo de JavaScript. Entre os temas mais presentes estão:
+O Focus Timer 2.0 DarkMode foi desenvolvido para estudar e aplicar tudo aprendido no curso até então. Com um foco maior no conteudo de JavaScript. Entre os temas mais presentes estão:
 
 - Estrutura de dados no HTML
 - Animações com CSS
@@ -48,4 +48,4 @@ Esse projeto está sob a licença MIT.
 
 Feito com ♥ by Rocketseat 👋 [Participe da nossa comunidade!](https://discord.gg/rocketseat)
 
-# Desafio2-Stage5-Explorer-Rocketseat
+# Desafio3-Stage5-Explorer-Rocketseat
