@@ -9,10 +9,10 @@
 
   --switch-bg-url: url(./assets/sun.svg);
 
-  --time-color: hsla(240, 6%, 21%, 1);
+  --timer-color: hsla(240, 6%, 21%, 1);
   --controls-color: hsla(240, 6%, 21%, 1);
   --controls-hover-color: rgb(25, 25, 29);
-  --bg--white-mode: rgb(139, 88, 186);
+  --bg-color-mode: rgb(139, 88, 186);
 
   --music-cards-color: hsla(240, 9%, 89%, 1);
   --bg-card-forest: #1a8f45;
@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: var(--bg--white-mode);
+  background-color: var(--bg-color-mode);
   font-family: "Roboto", sans-serif;
 
   display: grid;
@@ -56,7 +56,7 @@ main {
   font-size: clamp(8rem, 14rem + 10vw, 15.5rem);
   font-weight: 500;
 
-  color: var(--time-color);
+  color: var(--timer-color);
 }
 
 #controls {
@@ -77,6 +77,7 @@ main {
 .less-minutes svg path {
   fill: var(--controls-color);
 }
+
 
 .play,
 .pause,
@@ -185,10 +186,10 @@ button {
 .darkmode {
   --switch-bg-url: url(assets/moon.svg);
 
-  --time-color: hsla(0, 0%, 100%, 1);
+  --timer-color: hsla(0, 0%, 100%, 1);
   --controls-color: hsla(240, 7%, 78%, 1);
   --controls-hover-color: rgb(96, 96, 100);
-  --bg--white-mode: rgb(50, 29, 69);
+  --bg-color-mode: rgb(50, 29, 69);
 
   --music-cards-color: hsla(240, 6%, 17%, 1);
   --bg-card-forest: #17532d;
