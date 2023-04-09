@@ -1,11 +1,11 @@
-<h1 align="center"> FocusTimer versão 2.0</h1>
+<h1 align="center"> FocusTimer Version 2.0 Dark Mode</h1>
 
-<p align="center">Desafio feito pela equipe de instrutores da Rocketseat para o curso EXPLORER, para melhor entendimento sobre JavaScript <br/>
+<p align="center">Challenge made by Rocketseat's team of instructors for the EXPLORER, for a better understanding of JavaScript <br/>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-License">License</a>
 </p>
 
 <p align="center">
@@ -15,37 +15,36 @@
 <br>
 
 <p align="center">
-  <img alt="Projeto FocusTimer versão 2.0" src=".github\README.N5D3.bmp" width="100%">
+  <img alt="Project FocusTimer Version 2.0 Dark Mode" src=".github\README14.bmp" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed with the following technologies:
 
-- HTML e CSS
-- JavaScript
-- Figma
+- HTML and CSS;
+- JavaScript;
+- Figma;
 
-## 💻 Projeto
+## 💻 Project
 
-O Focus Timer 2.0 DarkMode foi desenvolvido para estudar e aplicar tudo aprendido no curso até então. Com um foco maior no conteudo de JavaScript. Entre os temas mais presentes estão:
+FocusTimer Version 2.0 was developed to study and apply everything learned in the course during level 5 with a main focus on JavaScript. Among the most common themes are:
 
-- Estrutura de dados no HTML
-- Animações com CSS
-- Inserção de audios
-- Controle do volume dos audios
-- Troca de modo noturno e modo diurno
-- Funções no JavaScript
-- Funções _callback_
-- Refatoração no JavaScript
-- Manipulação da DOM
+- Data structure in HTML;
+- Animations with CSS;
+- Insertion of audios;
+- Audio volume control;
+- Button to switch between dark mode and sunny mode;
+- Functions in JavaScript;
+- _callback_ functions;
+- DOM manipulation;
 
-## 🗒️ Licença
+## 🗒️ License
 
-Esse projeto está sob a licença MIT.
+This project is licensed under the MIT license.
 
 ---
 
-Feito com ♥ by Rocketseat 👋 [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Made with ♥ by Rocketseat 👋 [Participe da nossa comunidade (pt-BR)!](https://discord.gg/rocketseat)
 
 # Desafio3-Stage5-Explorer-Rocketseat
